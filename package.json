@@ -2,8 +2,10 @@
   "name": "evxn.github.io",
   "version": "0.0.1",
   "description": "Personal website project",
+  "source": "index.html",
   "scripts": {
-    "build": ""
+    "start": "parcel",
+    "build": "rm -rfv ./dist && parcel build --no-source-maps --no-cache --detailed-report"
   },
   "repository": {
     "type": "git",
@@ -14,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/evxn/evxn.github.io/issues"
   },
-  "homepage": "https://github.com/evxn/evxn.github.io#readme"
+  "homepage": "https://github.com/evxn/evxn.github.io#readme",
+  "dependencies": {
+    "@github/time-elements": "3.1.2"
+  },
+  "devDependencies": {
+    "parcel": "2.0.1"
+  }
 }
