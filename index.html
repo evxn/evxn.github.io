@@ -1,10 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>evgn.ml | home</title>
+	<meta charset="UTF-8">
+	<title>evgn.ml | home</title>
+	<style>
+	 .menu {
+
+	 }
+	</style>
 </head>
 <body>
-    
+	Sometimes later. That's when I want to do this website.
+	Yeah. Not today.
+
+	© 2010 - <local-time class="year-current" year="numeric">2021</local-time>
+
+<script type="module" src="./node_modules/@github/time-elements/dist/local-time-element.js"></script>
+<script type="text/javascript">
+    document.querySelectorAll('.year-current')
+        .forEach(elem => elem.setAttribute('datetime', new Date().toISOString()))
+</script>
 </body>
 </html>
