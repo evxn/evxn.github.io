@@ -4,16 +4,34 @@
 	<meta charset="UTF-8">
 	<title>evgn.ml | home</title>
 	<style>
-	 .menu {
+	 html {
+		 font-size: 24px;
+		 height: 100%;
+	 }
 
+	 body {
+		 min-height: 100%;
+		 display: grid;
+		 grid-template-rows: 1fr auto;
+		 margin: 0;
+	 }
+
+	 content, footer {
+		 margin: 2rem;
 	 }
 	</style>
 </head>
 <body>
-	Sometimes later. That's when I want to make this website.
-	Yeah. Not today.
+	<content>
+		Sometimes later. That's when I want to make this website.
+		<br>
+		Yeah. Not today.
+	</content>
 
-	© 2010 - <local-time class="year-current" year="numeric">2021</local-time>
+	<footer>
+		© 2010 - <local-time class="year-current" year="numeric">2021</local-time>
+	</footer>
+
 
 <script type="module" src="../node_modules/@github/time-elements/dist/local-time-element.js"></script>
 <script type="text/javascript">
