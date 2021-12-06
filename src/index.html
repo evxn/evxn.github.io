@@ -5,7 +5,8 @@
 	<title>evgn.ml | home</title>
 	<style>
 	 html {
-		 font-size: 24px;
+		 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+		 font-size: 48px;
 		 height: 100%;
 	 }
 
@@ -19,17 +20,22 @@
 	 content, footer {
 		 margin: 2rem;
 	 }
+
+	 @media only screen and (min-device-width: 600px)  {
+		 html {
+			 font-size: 30px;
+		 }
+	 }
 	</style>
 </head>
 <body>
 	<content>
-		Sometimes later. That's when I want to make this website.
-		<br>
-		Yeah. Not today.
+		<p>Sometimes later. That's when I want to make this website.</p>
+		<p>Yeah. Not today.</p>
 	</content>
 
 	<footer>
-		© 2010 - <local-time class="year-current" year="numeric">2021</local-time>
+		© 2010	– <local-time class="year-current" year="numeric">2021</local-time>
 	</footer>
 
 
@@ -38,5 +44,6 @@
     document.querySelectorAll('.year-current')
         .forEach(elem => elem.setAttribute('datetime', new Date().toISOString()))
 </script>
+
 </body>
 </html>
