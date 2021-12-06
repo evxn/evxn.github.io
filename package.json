@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Personal website project",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "clean": "rm -rfv ./index.html ./index.3ee71828.js",
+    "start": "parcel ./src/index.html --dist-dir ./temp",
+    "clean": "rm -rfv ./index.html ./index.3ee71828.js ./temp/",
     "build": "npm run clean && parcel build ./src/index.html --dist-dir ./ --no-source-maps --no-cache --detailed-report --no-content-hash"
   },
   "repository": {
