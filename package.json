@@ -2,10 +2,10 @@
   "name": "evxn.github.io",
   "version": "0.0.1",
   "description": "Personal website project",
-  "source": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "rm -rfv ./dist && parcel build --no-source-maps --no-cache --detailed-report"
+    "start": "parcel ./src/index.html",
+    "clean": "rm -rfv ./index.html ./index.3ee71828.js",
+    "build": "npm run clean && parcel build ./src/index.html --dist-dir ./ --no-source-maps --no-cache --detailed-report --no-content-hash"
   },
   "repository": {
     "type": "git",
