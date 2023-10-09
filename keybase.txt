@@ -4,58 +4,49 @@ https://keybase.io/evxn
 
 I hereby claim:
 
-  * I am an admin of http://evgn.ml
+  * I am an admin of https://evgn.ml
   * I am evxn (https://keybase.io/evxn) on keybase.
-  * I have a public key with fingerprint D8C4 47AE 0675 D1A6 FCC1  0F1D C2BC FD19 3347 C14D
+  * I have a public key ASB8uy6bxLCOm95jjSKfb_DpuIeIU3VJPvszsbPBEtwv2Ao
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "fingerprint": "d8c447ae0675d1a6fcc10f1dc2bcfd193347c14d",
-            "host": "keybase.io",
-            "key_id": "c2bcfd193347c14d",
-            "uid": "ae78941c0a46df1a0c735b6cf686c800",
-            "username": "evxn"
-        },
-        "service": {
-            "hostname": "evgn.ml",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0101564e8f9fb8af02c053594393c1f751e017ccdadd671d310f56becb9c6a2809fd0a",
+      "host": "keybase.io",
+      "kid": "01207cbb2e9bc4b08e9bde638d229f6ff0e9b887885375493efb33b1b3c112dc2fd80a",
+      "uid": "ae78941c0a46df1a0c735b6cf686c800",
+      "username": "evxn"
     },
-    "ctime": 1412773860,
-    "expire_in": 157680000,
-    "prev": "18fe6ae63dd0f1a8787933bbf4b414c73e3dfbef6b0e61a23f3409e4b6730329",
-    "seqno": 3,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1696851962,
+      "hash": "f718075e56a0559007fd247632026f47511c10d8e66b920547d7e5394aeab6dd6235de997aad6bddc35f09c57b3843efb262491e2d8029c46c14c9e46f0952a3",
+      "hash_meta": "a81ef300572722507db807fda862402bf78d609572c580b2082e71ea4af0db87",
+      "seqno": 25011058
+    },
+    "service": {
+      "entropy": "la1+upzwzelEqTCd0C7EUqUt",
+      "hostname": "evgn.ml",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1696851985,
+  "expire_in": 504576000,
+  "prev": "60834ddeff2f9ab043706546bc11a03b99521b42f79e2f351bb5833ff0a05645",
+  "seqno": 50,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v1.1.2
-Comment: https://keybase.io/crypto
-
-yMHgAnicbVFbSBRRGN6pLdk1wXazoKtOpeu1ue1cFlNCIgRNYoMii+3MzJl1TGe2
-2XHVzIcyMwsJe7CLL4ZPig9BBkFiYlK4YYIkRWXJ4koSJBaSXe2MVE89Hc73f9/3
-/9//jySttjmxrO4zR4qOYjHs6dD7GtthLzfTgIu6XI/7GvBTcOVRVC0IjZChaibu
-w2VeYhgOQILlvDIJWEWSSEIhZYkSJUUmBZpmOIlkZDwHr9DDlgLZiCAM81QdYegT
-UGWE/odfs1IAkOMFhpQIwLCyQgJC4mivyEoKy7MSTxAWMQwNDVRDxIaROg1vzMER
-ElElaM1rtf1XDWp51VVIEjJ0U5f0KgRWmGbIZ2nM+pBFqoVi4I88IKqajOIiQQQa
-YVXXcB+JmJKpWn4kQ1IcR/MskYPDupBqwIBqMbwciwYjCKsNjCBLklcgCyBLyzLa
-DeA5nkNBRVFhRIZkUCBIy4oIFVYkIEsCilZohhAgI7IcTdCUgFuBTms67qPRmCCI
-LMNqUANmjQHxxuGh43Yb5rStXbPKOpjN6Uj+e8biQMKPpP0dZRc+CjPjk50nejaA
-5xNpb1Kzei7lnvNcdUwNtC6s8/OOvuvDoFzYcndhevDy+gzH/GBv46/SdDoRE3Y3
-u/P7Yl39txdLTrpgduHjzy2p2651Jmc0V36Z25VQ+rq9w/O19ZY61uZMSmwpjYN4
-ZPN4blpso//A8LN3FfYXVwoq2/zF4zPzN9xUfzy6syn0IaVnOsVNFRTOLdt7Xcvf
-Hs2WTHdnPpkqLIq2l38/2H5nX8w/MRDdsemtp3k0fYk5n/XAleqecmAje7HZl59+
-HttaFqNqM++BaMfYoaZ6MxA8WxzfvtT5ilqUZd/9mOfhaKTrpt++52J2w2R+7m/6
-ywyE
-=4u2S
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfLsum8SwjpveY40in2/w6biHiFN1ST77M7GzwRLcL9gKp3BheWxvYWTESpcCMsQgYINN3v8vmrBDcGVGvBGgO5lSG0L3ni81G7WDP/CgVkXEIGXEV2ypNzdcYeRrywDn5tFJPPWT2EZBKVvlLDMfS7qqAgHCo3NpZ8RA75a4ax+MoJLyCVCthXMeA8XT8vEXzfNaYLKlrVZmuJmrqpMqmIo7du+EKPUCwMg67HTTWe5b+OWYEwhRbffCAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPo9fXuGW7z+unfm7fewGmzY8VLmbBXP1M7k0pj3XO6eo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
