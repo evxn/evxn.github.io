@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/evxn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://evgn.ml
+  * I am evxn (https://keybase.io/evxn) on keybase.
+  * I have a public key ASB8uy6bxLCOm95jjSKfb_DpuIeIU3VJPvszsbPBEtwv2Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101564e8f9fb8af02c053594393c1f751e017ccdadd671d310f56becb9c6a2809fd0a",
+      "host": "keybase.io",
+      "kid": "01207cbb2e9bc4b08e9bde638d229f6ff0e9b887885375493efb33b1b3c112dc2fd80a",
+      "uid": "ae78941c0a46df1a0c735b6cf686c800",
+      "username": "evxn"
+    },
+    "merkle_root": {
+      "ctime": 1696851962,
+      "hash": "f718075e56a0559007fd247632026f47511c10d8e66b920547d7e5394aeab6dd6235de997aad6bddc35f09c57b3843efb262491e2d8029c46c14c9e46f0952a3",
+      "hash_meta": "a81ef300572722507db807fda862402bf78d609572c580b2082e71ea4af0db87",
+      "seqno": 25011058
+    },
+    "service": {
+      "entropy": "la1+upzwzelEqTCd0C7EUqUt",
+      "hostname": "evgn.ml",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1696851985,
+  "expire_in": 504576000,
+  "prev": "60834ddeff2f9ab043706546bc11a03b99521b42f79e2f351bb5833ff0a05645",
+  "seqno": 50,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfLsum8SwjpveY40in2/w6biHiFN1ST77M7GzwRLcL9gKp3BheWxvYWTESpcCMsQgYINN3v8vmrBDcGVGvBGgO5lSG0L3ni81G7WDP/CgVkXEIGXEV2ypNzdcYeRrywDn5tFJPPWT2EZBKVvlLDMfS7qqAgHCo3NpZ8RA75a4ax+MoJLyCVCthXMeA8XT8vEXzfNaYLKlrVZmuJmrqpMqmIo7du+EKPUCwMg67HTTWe5b+OWYEwhRbffCAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPo9fXuGW7z+unfm7fewGmzY8VLmbBXP1M7k0pj3XO6eo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/evxn
+
+==================================================================
